@@ -13,6 +13,7 @@ import com.littleinc.orm_benchmark.sqlite.SQLiteExecutor;
 import com.littleinc.orm_benchmark.sqliteoptimized.OptimizedSQLiteExecutor;
 import com.littleinc.orm_benchmark.squeaky.SqueakyExecutor;
 import com.littleinc.orm_benchmark.squidb.SquidbExecutor;
+import com.littleinc.orm_benchmark.storio.StorIOExecutor;
 import com.littleinc.orm_benchmark.sugarorm.SugarOrmExecutor;
 
 import java.util.ArrayList;
@@ -44,7 +45,8 @@ public class OrmBenchmarksTask extends Task
                     new RequeryExecutor(),
                     new OptimizedSQLiteExecutor(),
                     new ORMLiteExecutor(),
-                    new GreenDaoExecutor()
+                    new GreenDaoExecutor(),
+                    new StorIOExecutor()
 };
 
     public String resultString;

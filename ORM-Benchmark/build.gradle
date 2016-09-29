@@ -70,4 +70,8 @@ dependencies {
     provided 'javax.annotation:jsr250-api:1.0'
 
     apt 'com.google.auto.value:auto-value:1.1'
+
+    compile 'com.pushtorefresh.storio:sqlite:1.10.0'
+    compile 'com.pushtorefresh.storio:sqlite-annotations:1.10.0'
+    apt 'com.pushtorefresh.storio:sqlite-annotations-processor:1.10.0'
 }
